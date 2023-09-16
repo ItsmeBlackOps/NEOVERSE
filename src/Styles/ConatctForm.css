@@ -1,7 +1,7 @@
 .contact-form-container {
   margin: 0 auto;
-  width: 500px;
-  height: 500px;
+  max-width: 100%; /* Changed from fixed width to max-width */
+  height: auto; /* Changed from fixed height to auto */
   display: flex;
   padding: 20px;
   text-align: center;
@@ -66,23 +66,19 @@
 
 /* media queries only */
 
-@media only screen and (min-width: 1024px) { 
-
+@media only screen and (min-width: 1024px) {
   .contact-form-container {
-    width: 400px;
-    height: 450px;
+    max-width: 400px;
+    height: auto;
   }
 }
 
-@media only screen and (min-width: 768px) { 
-
+@media only screen and (min-width: 768px) {
   .contact-form-container {
     margin: 0 auto;
-    width: 450px;
-    height: 350px;
-    display: flex;
-    padding: 0px;
+    max-width: 450px;
+    height: auto;
+    padding: 20px;
     text-align: center;
   }
-
 }

@@ -8,7 +8,7 @@
 }
 .user_bio {
   position: relative;
-  left: 240px;
+  left: 5%;
 }
 .user_bio > h1 {
   font-size: 50px;
@@ -212,8 +212,7 @@
 
 @media only screen and (max-width: 1024px) {
   .user_bio {
-    position: relative;
-    left: 30px;
+    left: 3%;
   }
 
   .project_pics {
@@ -222,7 +221,6 @@
 
   .pic1_content {
     width: 40%;
-    line-break: auto;
   }
 
   .hit > h2 {
